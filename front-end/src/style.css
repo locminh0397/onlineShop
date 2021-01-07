@@ -1,0 +1,226 @@
+/**
+ * border radius
+ */
+
+ .btn,
+ .jumbotron,
+ .nav :hover {
+     border-radius: 0px;
+ }
+ 
+ /* cart badge */
+ 
+ .cart-badge,
+ .cart-badge:hover {
+     border-radius: 50%;
+     padding: 2px;
+     font-size: 12px;
+     font-style: italic;
+     background: #000;
+ }
+ /**
+  * single product page - product name
+  */
+ 
+ .name {
+     background: indigo;
+     color: #fff;
+     font-weight: bold;
+ }
+ 
+ /* black shade form 10-1 */
+ .black-10 {
+     background: #f2f2f2;
+ }
+ .black-9 {
+     background: #e6e6e6;
+ }
+ .black-8 {
+     background: #d9d9d9;
+ }
+ .black-7 {
+     background: #cccccc;
+ }
+ .black-6 {
+     background: #bfbfbf;
+ }
+ .black-5 {
+     background: #b3b3b3;
+ }
+ 
+ /**
+  * product image on card
+  */
+ 
+ .product-img {
+     min-height: 100px;
+ }
+ 
+ .jumbotron h2 {
+     margin-top: -20px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .jumbotron h2 {
+         margin-top: 10px;
+     }
+ }
+ 
+ /**
+  * jumbotron animation
+  */
+ 
+ .jumbotron {
+     height: 180px;
+     color: #fff;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 400%;
+     -webkit-animation: Gradient 15s ease infinite;
+     -moz-animation: Gradient 15s ease infinite;
+     animation: Gradient 15s ease infinite;
+ }
+ 
+ @-webkit-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @-moz-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ .fa-shopping-cart{
+     font-size: 20px;
+ }
+ .fa-facebook, .fa-twitter, .fa-google{
+     font-size: 25px;
+ }
+ .fa-facebook{
+     color: #4267B2;
+ }
+ 
+ .fa-twitter{
+     color: #1DA1F2;
+ }
+ 
+ .fa-google{
+     color: #EA4335;
+ }
+ .logo{
+     font-size:30px;
+     margin: 0 15px;
+     text-decoration: none;
+     
+ }
+ .nav-link{
+     margin-top: 2px;
+ }
+ html,
+body,
+div.invoice {
+  margin: 0;
+  padding: 0;
+}
+
+div.invoice {
+    font-family: "DejaVu Sans", "Arial", sans-serif;
+    font-size: 12px;
+}
+
+section.pdf-body {
+    padding: 16px;
+    background-color: #eee;
+    height: 100%;
+    margin: 8px;
+  }
+  
+    
+section.pdf-toolbar button {
+    background-color: #fff;
+    border: 1px solid #555;
+    padding: 8px;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+
+section.header-bar .header {
+    font-size: 1.2em;
+  }
+  
+  section.pdf-toolbar {
+    padding: 16px;
+  }
+  
+
+section.pdf-toolbar button:hover,
+section.pdf-toolbar button:focus {
+    border: 1px solid #333;
+    background-color: #eee;
+}
+.Chart{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.rating{
+    margin: 20px 0 0 0 ;
+}
+.ratingText{
+    margin: 0px 10px 10px 0;
+}
+label input{
+    display: none;
+}
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "DejaVu Sans";
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+  }
